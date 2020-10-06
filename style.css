@@ -5,10 +5,16 @@
 
 body {
   font-family: Lineto-Circular, Arial, sans-serif;
+  font-weight: 700;
 }
 
 #nav {
   background-color: #000000;
+  font-family: Lineto-Circular, Arial, sans-serif;
+}
+
+.nav-logo {
+  color: #ffffff;
 }
 
 .nav-items {
@@ -19,12 +25,27 @@ body {
 .logo-text {
   color: #ffffff;
   font-size: 28px;
-  font-weight: 700;
+  font-weight: 400;
   text-decoration: none;
 }
 
-.nav-logo:hover, .logo-text:hover {
+.logo-text:hover {
   color: #ffffff;
+}
+
+.ui.inverted.menu .dropdown.item:hover,
+.ui.inverted.menu .link.item:hover,
+.ui.inverted.menu a.item:hover,
+.ui.link.inverted.menu .item {
+  transition: all 0.2s ease-in;
+}
+
+.ui.inverted.menu .dropdown.item:hover,
+.ui.inverted.menu .link.item:hover,
+.ui.inverted.menu a.item:hover,
+.ui.link.inverted.menu .item:hover {
+  background: #000000;
+  color: #1ED760;
 }
 
 .custom-link {
@@ -64,7 +85,7 @@ body {
 
 .banner-subtext {
   position: absolute;
-  left: 35%;
+  left: 37.5%;
   top: 65%;
 }
 
@@ -130,6 +151,16 @@ body {
 .custom-list {
   line-height: 20px;
   margin-right: 1rem;
+}
+
+.footer-link {
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+}
+
+.footer-link:hover {
+  color: #1ED760;
 }
 
 .legal-info-container {
