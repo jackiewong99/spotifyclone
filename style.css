@@ -1,0 +1,151 @@
+@font-face {
+  font-family: Lineto-Circular;
+  src: url("lineto-circular-pro-bold.ttf") format('truetype');
+}
+
+body {
+  font-family: Lineto-Circular, Arial, sans-serif;
+}
+
+#nav {
+  background-color: #000000;
+}
+
+.nav-items {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.logo-text {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav-logo:hover, .logo-text:hover {
+  color: #ffffff;
+}
+
+.custom-link {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.separator {
+  top: 7px;
+}
+
+#banner {
+  margin-top: 80px;
+  background-color: #2D46B9;
+  background-image: url("spotify_svg.svg");
+  background-position: 67% 6%;
+  background-repeat: no-repeat;
+  color: #1ED760;
+  height: 92%;
+  width: 100%;
+}
+
+.banner-text {
+  position: absolute;
+  left: 19%;
+  top: 25%;
+  margin-bottom: 40px;
+}
+
+.banner-text:nth-child(2) {
+  left: 36%;
+  top: 40%;
+  margin-bottom: 40px;
+}
+
+.banner-subtext {
+  position: absolute;
+  left: 35%;
+  top: 65%;
+}
+
+.banner-button {
+  position: absolute;
+  left: 48%;
+  top: 75%;
+}
+
+.main-text {
+  font-size: 156px;
+  font-weight: 400;
+  line-height: 166px;
+}
+
+.sub-text {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.custom-btn {
+  background-color: #1ED760;
+  color: #2940a8;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 1.4px;
+  padding: 16px 70px 16px;
+  text-decoration: none;
+  border-radius: 500px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.custom-btn:hover {
+  background-color: #ffffff;
+}
+
+#footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+#footerContent {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 303.5px;
+  margin-right: 303.5px;
+}
+
+.footer-logo {
+  color: #ffffff;
+}
+
+.list-titles {
+  color: #919496;
+  font-size: 14px;
+}
+
+.custom-list {
+  line-height: 20px;
+  margin-right: 1rem;
+}
+
+.legal-info-container {
+  margin-top: 10rem;
+}
+
+.legal-tag {
+  color: #919496;
+  font-size: 12px;
+  transition: all 0.2s ease-in;
+}
+
+.legal-tag:hover {
+  color: #1ED760;
+}
+
+.copyright-item {
+  color: #919496;
+}
